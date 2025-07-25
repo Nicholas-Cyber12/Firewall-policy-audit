@@ -1,0 +1,8 @@
+```
+Rule 1: ANY -> ANY on port 80, ALLOW
+Rule 2: 192.168.1.0/24 -> ANY on port 443, ALLOW
+Rule 3: 192.168.1.10 -> 10.0.0.5 on port 22, ALLOW
+Rule 4: ANY -> ANY on port 23, ALLOW
+Rule 5: 10.0.0.0/24 -> 192.168.1.0/24 on ALL ports, DENY
+Rule 6: ANY -> ANY on port 80, ALLOW  # Duplicate of Rule 1
+```
