@@ -16,10 +16,10 @@ This project simulates a firewall rule audit for a small business. The configura
 
 ## Project Structure
 ```
-data/                → Sample firewall rule config
+data/                → Firewall rule config
 analysis/            → Rule-by-rule audit findings
 recommendations/     → Improved firewall policy proposal
-scripts/             → Optional automation (e.g. rule parser)
+scripts/             → Automation (rule parser)
 ```
 
 ## Note
